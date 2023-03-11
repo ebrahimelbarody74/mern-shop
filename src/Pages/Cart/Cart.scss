@@ -1,0 +1,99 @@
+.cart{
+    h4{
+        font-size: 40px;
+        text-align: center;
+        font-weight: 100;
+    }
+    .cart-link{
+        padding: 0 30px;
+        display: flex;
+        justify-content: space-between;
+         button{
+        padding: 10px;
+        font-weight: 600;
+        cursor: pointer;
+        border: none;
+        background-color: black;
+        color: white;
+        display: flex;
+    }
+        .cart-info{
+            display: flex;
+            gap: 2rem;
+        }
+    }
+    .cart-row{
+        padding: 20px;
+        display: flex;
+        gap: 2rem;
+        .cart-product{
+            width: 68%;
+
+            .cart-box{
+                &:not(:last-child){
+                    border-bottom: 1px solid #ccc;
+                }
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                img{
+                    width: 20%;
+                }
+                ul{
+                    width: 60%;
+                    li{
+                        color: gray;
+                        margin-bottom: 10px;
+                        span{
+                            font-weight: bold;
+                            color: #000;
+                        }
+                    }
+                }
+                .cart-price{
+                    .event{
+                        display: flex;
+                        gap: 2rem;
+                    }
+                    span{
+                        font-size: 30px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .cart-total{
+            width: 30%;
+            border: 0.5px solid lightgray;
+            border-radius: 10px;
+            padding: 20px;
+            height: 50vh;
+            button{
+                padding: 10px;
+                font-weight: 600;
+                cursor: pointer;
+                border: none;
+                background-color: black;
+                color: white;
+                flex: 1;
+                width: 100%;
+                text-align: center;
+                display: block;
+            }
+            ul{
+                li{
+                    margin: 30px 0px;
+                    display: flex;
+                    -webkit-box-pack: justify;
+                    justify-content: space-between
+                }
+            }
+        }
+    }
+}
+button{
+    width: fit-content;
+    padding: 5px 20px ;
+    border-radius: 10px;
+    cursor: pointer;
+}

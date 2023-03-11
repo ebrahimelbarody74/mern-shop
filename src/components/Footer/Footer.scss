@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    padding: 20px;
+    gap: 2rem;
+    &>*{
+        flex: 1;
+    }
+    .footer-box{
+        h3{
+            font-size: 30px;
+        }
+        p{
+            color: gray;
+        }
+        .links{
+            display: flex;
+            ul{
+                flex: 1;
+                li{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .contact{
+            li{
+                display: flex;
+                margin-bottom: 20px;
+                svg{
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}

@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    .left{
+        .lang{
+            margin-right: 20px;
+            padding: 5px;
+        }
+        input{
+            padding: 5px 10px;
+            width: 60%;
+        }
+    }
+    .logo{
+        h1{
+            margin: 0;
+        }
+    }
+    .right{
+        display: flex;
+        &>*{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+    }
+}

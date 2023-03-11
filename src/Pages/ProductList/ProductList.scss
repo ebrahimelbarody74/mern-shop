@@ -1,0 +1,16 @@
+.productList{
+    .filter{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        .left , .right{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            font-size: 20px;
+        }
+        select{
+            padding: 10px 15px;
+        }
+    }
+}
